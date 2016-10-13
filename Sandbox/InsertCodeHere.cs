@@ -89,26 +89,25 @@ namespace Sandbox
             // Print out the numbers 0,1,3,7,15,31
             Console.WriteLine("Start of Case 6");
             int value2 = 0;
-                  
-            while (value2 <= 31)
+            while (value2 < 31)
             {
-                value2++;
-                if(value2 == 0 ||value2 == 1 || value2 == 3 ||value2 == 7 || value2 == 15 ||value2 == 31)
-                {
-                    Console.WriteLine(value2);
-                }
+                value2 = value2 * 2 + 1;
+                Console.WriteLine(value2);
                 
-                
-
             }
             Console.WriteLine("End of Case 6");
 
             // Case 7
             // Print out the numbers 100,50,25,12,6,3,1
-            //Console.WriteLine("Start of Case 7");
+            Console.WriteLine("Start of Case 7");
+            int value3 = 200;
+            while(value3 > 1)
+            {
+                value3 = value3 / 2;
+                Console.WriteLine(value3);
+            }
 
-
-            //Console.WriteLine("End of Case 7");
+            Console.WriteLine("End of Case 7");
 
             // Case 8 (DIFFICULT)
             // Print out the numbers 10,9,12,7,14,5,16,3,18,1
