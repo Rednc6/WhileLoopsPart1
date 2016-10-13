@@ -13,7 +13,7 @@ namespace Sandbox
             int c1 = 1;
             while (c1 < 20)
             {
-                Console.WriteLine(c1); // Uncomment to see result
+                //Console.WriteLine(c1); // Uncomment to see result
                 c1 = c1 + 2;
             }
             Console.WriteLine("End of Case 1");
@@ -24,7 +24,7 @@ namespace Sandbox
             int c2 = 1;
             while (c2 < 20)
             {
-                Console.WriteLine(c2); // Uncomment to see result
+                //Console.WriteLine(c2); // Uncomment to see result
                 c2 = c2 * 2;
             }
             Console.WriteLine("End of Case 2");
@@ -35,7 +35,7 @@ namespace Sandbox
             int c3 = 15;
             while ((c3 < 20) && (c3 > 10))
             {
-                Console.WriteLine(c3);  // Uncomment to see result
+                //Console.WriteLine(c3);  // Uncomment to see result
                 c3++;
             }
             Console.WriteLine("End of Case 3");
@@ -46,7 +46,7 @@ namespace Sandbox
             int c4 = 10;
             while (c4 >= 0)
             {
-                Console.WriteLine(c4);  // Uncomment to see result
+                //Console.WriteLine(c4);  // Uncomment to see result
                 c4--;
             }
             Console.WriteLine("End of Case 4");
@@ -87,10 +87,21 @@ namespace Sandbox
 
             // Case 6
             // Print out the numbers 0,1,3,7,15,31
-            //Console.WriteLine("Start of Case 6");
+            Console.WriteLine("Start of Case 6");
+            int value2 = 0;
+                  
+            while (value2 <= 31)
+            {
+                value2++;
+                if(value2 == 0 ||value2 == 1 || value2 == 3 ||value2 == 7 || value2 == 15 ||value2 == 31)
+                {
+                    Console.WriteLine(value2);
+                }
+                
+                
 
-
-            //Console.WriteLine("End of Case 6");
+            }
+            Console.WriteLine("End of Case 6");
 
             // Case 7
             // Print out the numbers 100,50,25,12,6,3,1
